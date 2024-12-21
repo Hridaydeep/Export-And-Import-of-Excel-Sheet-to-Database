@@ -98,13 +98,13 @@ Generate an Excel report in the same format as the manual register. The report w
 
 ## API Endpoints
 ### 1. Bulk Upload API
-- **Endpoint**: `/api/students/upload`
+- **Endpoint**: `/api/upload`
 - **Method**: `POST`
 - **Description**: Accepts an Excel file and uploads student data to the database.
 - **Validation**: Ensures data adheres to the specified constraints.
 
 ### 2. Generate Report API
-- **Endpoint**: `/api/students/report`
+- **Endpoint**: `/api/export`
 - **Method**: `GET`
 - **Description**: Generates an Excel report in the manual register format.
 
@@ -123,10 +123,6 @@ Generate an Excel report in the same format as the manual register. The report w
 - Create a frontend interface for easier user interaction.
 - Optimize bulk upload performance for larger datasets.
 
----
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
 
